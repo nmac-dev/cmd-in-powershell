@@ -10,3 +10,4 @@ cmd-in-powershell attempts to provide minor alterations to certain commands in p
  - `git-bash` commands (i.e. `grep`) not being available in powershell.
  - Powershell commands not working as intended:
    - ◻️ `where` does not work unless you exactly call `where.exe` (Windows 11 issue)
+   - ◻️ `mklink` "not recognized as the name of a cmdlet"
