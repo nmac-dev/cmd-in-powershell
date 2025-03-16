@@ -11,6 +11,161 @@
         {
             "command": "grep",
             "enabled": 1
+        },
+        {
+            "command": "awk",
+            "enabled": 1
+        },
+        {
+            "command": "sed",
+            "enabled": 1
+        },
+        {
+            "command": "ls",
+            "enabled": 1
+        },
+        {
+            "command": "cat",
+            "enabled": 1
+        },
+        {
+            "command": "echo",
+            "enabled": 1
+        },
+        {
+            "command": "find",
+            "enabled": 1
+        },
+        {
+            "command": "xargs",
+            "enabled": 1
+        },
+        {
+            "command": "sort",
+            "enabled": 1
+        },
+        {
+            "command": "uniq",
+            "enabled": 1
+        },
+        {
+            "command": "cut",
+            "enabled": 1
+        },
+
+
+        {
+            "command": "cp",
+            "enabled": 1
+        },
+        {
+            "command": "mv",
+            "enabled": 1
+        },
+        {
+            "command": "rm",
+            "enabled": 1
+        },
+        {
+            "command": "mkdir",
+            "enabled": 1
+        },
+        {
+            "command": "rmdir",
+            "enabled": 1
+        },
+        {
+            "command": "touch",
+            "enabled": 1
+        },
+
+
+        {
+            "command": "ps",
+            "enabled": 1
+        },
+        {
+            "command": "kill",
+            "enabled": 1
+        },
+        {
+            "command": "jobs",
+            "enabled": 1
+        },
+        {
+            "command": "bg",
+            "enabled": 1
+        },
+        {
+            "command": "fg",
+            "enabled": 1
+        },
+
+        {
+            "command": "curl",
+            "enabled": 1
+        },
+        {
+            "command": "wget",
+            "enabled": 1
+        },
+        {
+            "command": "ssh",
+            "enabled": 1
+        },
+        {
+            "command": "scp",
+            "enabled": 1
+        },
+
+
+        {
+            "command": "tar",
+            "enabled": 1
+        },
+        {
+            "command": "gzip",
+            "enabled": 1
+        },
+        {
+            "command": "bzip2",
+            "enabled": 1
+        },
+        {
+            "command": "zip",
+            "enabled": 1
+        },
+        {
+            "command": "unzip",
+            "enabled": 1
+        },
+
+
+        {
+            "command": "git",
+            "enabled": 1
+        },
+        {
+            "command": "gitk",
+            "enabled": 1
+        },
+
+
+        {
+            "command": "vim",
+            "enabled": 1
+        },
+        {
+            "command": "nano",
+            "enabled": 1
+        },
+        {
+            "command": "bash",
+            "enabled": 0
+        },
+        {
+            "command": "sh",
+            "enabled": 1
         }
     ],
     "powershell":
