@@ -1,0 +1,23 @@
+{
+    "cmd_prompt":
+    [
+        {
+            "command": "mklink",
+            "enabled": 1
+        }
+    ],
+    "git_bash":
+    [
+        {
+            "command": "grep",
+            "enabled": 1
+        }
+    ],
+    "powershell":
+    [
+        {
+            "command": "where",
+            "enabled":  1
+        }
+    ]
+}
