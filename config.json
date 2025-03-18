@@ -4,6 +4,14 @@
         {
             "command": "mklink",
             "enabled": 1
+        },
+        {
+            "command": "set",
+            "enabled": 0
+        },
+        {
+            "command": "setx",
+            "enabled": 0
         }
     ],
     "git_bash":
@@ -22,19 +30,19 @@
         },
         {
             "command": "ls",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "cat",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "echo",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "find",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "xargs",
@@ -56,66 +64,66 @@
 
         {
             "command": "cp",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "mv",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "rm",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "mkdir",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "rmdir",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "touch",
-            "enabled": 1
+            "enabled": 0
         },
 
 
         {
             "command": "ps",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "kill",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "jobs",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "bg",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "fg",
-            "enabled": 1
+            "enabled": 0
         },
 
         {
             "command": "curl",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "wget",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "ssh",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "scp",
-            "enabled": 1
+            "enabled": 0
         },
 
 
@@ -143,11 +151,11 @@
 
         {
             "command": "git",
-            "enabled": 1
+            "enabled": 0
         },
         {
             "command": "gitk",
-            "enabled": 1
+            "enabled": 0
         },
 
 
@@ -165,14 +173,14 @@
         },
         {
             "command": "sh",
-            "enabled": 1
+            "enabled": 0
         }
     ],
     "powershell":
     [
         {
             "command": "where",
-            "enabled":  1
+            "enabled": 1
         }
     ]
 }
