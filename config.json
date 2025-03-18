@@ -7,11 +7,12 @@
         },
         {
             "command": "set",
-            "enabled": 1
+            "enabled": 1,
+            "alias_conflict": 1
         },
         {
             "command": "setx",
-            "enabled": 1
+            "enabled": 0
         }
     ],
     "git_bash":
