@@ -7,11 +7,11 @@
         },
         {
             "command": "set",
-            "enabled": 0
+            "enabled": 1
         },
         {
             "command": "setx",
-            "enabled": 0
+            "enabled": 1
         }
     ],
     "git_bash":
