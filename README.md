@@ -13,7 +13,9 @@ cmd-in-powershell attempts to provide minor alterations to certain commands in p
 
 Not all Command Prompt commands function the same in powershell.
 
- - ◻️ `mklink` "not recognized as the name of a cmdlet"
+ - ✅ `mklink` "not recognized as the name of a cmdlet"
+ - ✅ `set`
+ - ◻️ `setx`
 
 
 ### Bash
@@ -24,17 +26,17 @@ Not all Command Prompt commands function the same in powershell.
 
 #### Utility
 
- - ◻️ `grep`
- - ◻️ `awk`
- - ◻️ `sed`
+ - ✅ `grep`
+ - ✅ `awk`
+ - ✅ `sed`
  - ◻️ `ls`
  - ◻️ `cat`
  - ◻️ `echo`
  - ◻️ `find`
- - ◻️ `xargs`
- - ◻️ `sort`
- - ◻️ `uniq`
- - ◻️ `cut`
+ - ✅ `xargs`
+ - ✅ `sort`
+ - ✅ `uniq`
+ - ✅ `cut`
 
 #### Files
 
@@ -62,11 +64,11 @@ Not all Command Prompt commands function the same in powershell.
 
 #### Compression
 
- - ◻️ `tar`
- - ◻️ `gzip`
- - ◻️ `bzip2`
- - ◻️ `zip`
- - ◻️ `unzip`
+ - ✅ `tar`
+ - ✅ `gzip`
+ - ✅ `bzip2`
+ - ✅ `zip`
+ - ✅ `unzip`
 
 #### Version-Control
 
@@ -75,8 +77,8 @@ Not all Command Prompt commands function the same in powershell.
 
 #### Editors
 
- - ◻️ `vim`
- - ◻️ `nano`
+ - ✅ `vim`
+ - ✅ `nano`
 
 #### Shell
 
@@ -90,4 +92,10 @@ Not all Command Prompt commands function the same in powershell.
 
 Powershell commands not working as intended:
 
- - ◻️ `where` does not work unless you exactly call `where.exe` (Windows 11 issue)
+#### Fixes
+
+ - ❌ `where` does not work unless you exactly call `where.exe` (Windows 11 issue)
+    - Cannot override alias conflict
+
+#### Custom Commands
+ - ◻️ `todo` found in [CFG](https://github.com/nmac-dev/cfg) reposistory
