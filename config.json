@@ -181,8 +181,10 @@
     "powershell":
     [
         {
-            "command": "where",
-            "enabled": 1
+            "command":  "where",
+            "enabled":  0,
+            "function": "where.exe",
+            "comment":  ":ERROR: Alias is not writeable because alias where is read-only or constant and cannot be written to."
         }
     ]
 }
